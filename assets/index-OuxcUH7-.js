@@ -1,0 +1,7 @@
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/index-D1Db5xIn.js","assets/index-DFEDjKuf.js","assets/index-DWzy0YyM.css","assets/plugin-vueexport-helper-DlAUqK2U.js","assets/index-D35OukD_.css"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
+import{d as a,r as f,a as u,c as o,e as g,f as h,j as e,k as t,g as s,i as v,F as C,K as b,_ as y}from"./index-DFEDjKuf.js";import{_ as x}from"./plugin-vueexport-helper-DlAUqK2U.js";const D={class:"croppers-container layout-pd"},k={class:"cropper-img-warp"},I={class:"mb15 mt15"},w=["src"],E=a({name:"funCropper"}),V=a({...E,setup(j){const n=b(()=>y(()=>import("./index-D1Db5xIn.js"),__vite__mapDeps([0,1,2,3,4]))),r=f(),c=u({cropperImg:"https://img2.baidu.com/it/u=1978192862,2048448374&fm=253&fmt=auto&app=138&f=JPEG?w=504&h=500"}),p=()=>{r.value.openDialog(c.cropperImg)};return(B,N)=>{const _=o("el-alert"),l=o("ele-Crop"),i=o("el-icon"),m=o("el-button"),d=o("el-card");return g(),h("div",D,[e(d,{shadow:"hover",header:"cropper 图片裁剪"},{default:t(()=>[e(_,{title:"感谢优秀的 `cropperjs`，项目地址：https://github.com/fengyuanchen/cropperjs",type:"success",closable:!1,class:"mb15"}),s("div",k,[s("div",I,[s("img",{class:"cropper-img",src:c.cropperImg},null,8,w)]),e(m,{type:"primary",size:"default",onClick:p},{default:t(()=>[e(i,null,{default:t(()=>[e(l)]),_:1}),v(" 更换头像 ")]),_:1})])]),_:1}),e(C(n),{ref_key:"cropperDialogRef",ref:r},null,512)])}}}),A=x(V,[["__scopeId","data-v-ba508414"]]);export{A as default};

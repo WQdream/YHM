@@ -1,0 +1,1 @@
+import{d as s,a1 as l,s as p,y as c,aa as m,G as d}from"./index-DFEDjKuf.js";const _=s({name:"auths"}),h=s({..._,props:{value:{type:Array,default:()=>[]}},setup(a){const o=a,r=l(),{userInfos:n}=p(r),u=c(()=>{let e=!1;return n.value.authBtnList.map(t=>{o.value.map(f=>{t===f&&(e=!0)})}),e});return(e,t)=>u.value?m(e.$slots,"default",{key:0}):d("",!0)}});export{h as default};

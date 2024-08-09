@@ -1,0 +1,7 @@
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/aside-_I1rcPdI.js","assets/index-DFEDjKuf.js","assets/index-DWzy0YyM.css","assets/header-DjuzZStO.js","assets/main-Bc16F8LJ.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
+import{d as m,r as i,M as k,u as C,s as L,o as M,az as g,P as f,m as d,c as p,e as w,H as x,k as t,j as e,F as s,K as n,_ as l}from"./index-DFEDjKuf.js";const E=m({name:"layoutDefaults"}),H=m({...E,setup(S){const y=n(()=>l(()=>import("./aside-_I1rcPdI.js"),__vite__mapDeps([0,1,2]))),v=n(()=>l(()=>import("./header-DjuzZStO.js"),__vite__mapDeps([3,1,2]))),R=n(()=>l(()=>import("./main-Bc16F8LJ.js"),__vite__mapDeps([4,1,2]))),o=i(""),a=i(),T=k(),h=C(),{themeConfig:r}=L(h),c=()=>{o.value.update(),a.value.layoutMainScrollbarRef.update()},u=()=>{d(()=>{setTimeout(()=>{c(),o.value.wrapRef.scrollTop=0,a.value.layoutMainScrollbarRef.wrapRef.scrollTop=0},500)})};return M(()=>{u(),g.done(600)}),f(()=>T.path,()=>{u()}),f(()=>[r.value.isTagsview,r.value.isFixedHeader],()=>{d(()=>{c()})},{deep:!0}),(A,P)=>{const b=p("el-scrollbar"),_=p("el-container");return w(),x(_,{class:"layout-container"},{default:t(()=>[e(s(y)),e(_,{class:"layout-container-view h100"},{default:t(()=>[e(b,{ref_key:"layoutScrollbarRef",ref:o,class:"layout-backtop"},{default:t(()=>[e(s(v)),e(s(R),{ref_key:"layoutMainRef",ref:a},null,512)]),_:1},512)]),_:1})]),_:1})}}});export{H as default};
